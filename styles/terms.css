@@ -1,0 +1,14 @@
+.terms{
+    background-color: rgb(4, 23, 66);
+    color: #fff;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px
+}
+.terms strong{
+    font-size: 35px;
+}
+.link{
+    color: rgb(179, 221, 64);
+}

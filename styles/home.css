@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-color: #242582; */
+    background: url('https://www.w3schools.com/w3images/forestbridge.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  .topleft {
+    position: absolute;
+    top: 0;
+    left: 56px;
+    font-family: "Fredericka the Great", cursive;
+    font-family: "Great Vibes", cursive;
+    font-family: "VT323", monospace;
+    font-family: monospace;
+    color: #fff;
+    font-size: 25px;
+  }
+  .topright {
+    font-size: 25px;
+    position: absolute;
+    top: 19px;
+    right: 400px;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Fredericka the Great", cursive;
+    font-family: "Great Vibes", cursive;
+    font-family: "VT323", monospace;
+    font-family: monospace;
+  }
+
+  .topright_2 {
+    font-size: 25px;
+    position: absolute;
+    top: 19px;
+    right: 56px;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Fredericka the Great", cursive;
+    font-family: "Great Vibes", cursive;
+    font-family: "VT323", monospace;
+    font-family: monospace;
+  }
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .container h1 {
+    padding: 0;
+    margin: 0;
+    color: #000;
+    text-shadow: -3px 1px 2px rgba(84, 84, 84, 0.5);
+    font-size: 45px;
+    color: #fff;
+    font-family: "Fredericka the Great", cursive;
+    font-family: "Great Vibes", cursive;
+    font-family: "VT323", monospace;
+    font-family: monospace;
+    letter-spacing: 25px;
+  }
+  .container p {
+    color: green;
+    font-size: 18px;
+    margin: 0;
+    line-height: 35px;
+  }
+  span:before {
+    content: "";
+    animation: animate infinite 8s;
+  }
+  @keyframes animate {
+    0% {
+      content: "C";
+    }
+    10% {
+      content: "Co";
+    }
+    20% {
+      content: "Com";
+    }
+    30% {
+      content: "Comi";
+    }
+    40% {
+      content: "Comin";
+    }
+    50% {
+      content: "Coming";
+    }
+    60% {
+      content: "Coming S";
+    }
+    70% {
+      content: "Coming So";
+    }
+    80% {
+      content: "Coming Soo";
+    }
+    90% {
+      content: "Coming Soon";
+    }
+    100% {
+      content: "Coming Soon!";
+    }
+  }
+  
+  .load {
+    background: #fff;
+    color:#000;
+    height: 5px;
+  }
+  
